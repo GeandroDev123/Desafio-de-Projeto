@@ -1,0 +1,87 @@
+# Coleta de dados do herói:
+nome_do_heroi = input("Digite o nome do herói: ")
+XP_do_heroi = int(input("Digite o XP do herói: "))
+
+# Classificador de heróis:
+def classificar_xp(xp):
+    if xp <= 1000:
+        return "Ferro"
+    elif 1001 <= xp <= 2000:
+        return "Bronze"
+    elif 2001 <= xp <= 5000:
+        return "Prata"
+    elif 5001 <= xp <= 7000:
+        return "Ouro"
+    elif 7001 <= xp <= 8000:
+        return "Platina"
+    elif 8001 <= xp <= 9000:
+        return "Ascendente" 
+    elif 9001 <= xp <= 10000:
+        return "Imortal"
+    else:
+        return "Radiante"
+
+# Obtendo o nível do herói
+nivel = classificar_xp(XP_do_heroi)
+
+# Exibindo a mensagem formatada
+print(f"O {nome_do_heroi} está no nível de {nivel}")
+
+
+
+       
+
+
+
+
+
+
+
+
+
+       
+
+
+
+
+
+
+
+    
+
+   
+        
+
+
+    
+
+
+    
+
+        
+
+
+   
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+        
+
+
+
+
+
+
+    
+
